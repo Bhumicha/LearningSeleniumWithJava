@@ -1,9 +1,9 @@
-package All.example;
+package Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class ConvertingArray {
+public class ConvertingArrayToList {
     public static void main (String[] args)
     {
         //converting array  to list
