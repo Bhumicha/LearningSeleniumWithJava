@@ -1,18 +1,20 @@
-package All.example;
+package ConditionalStatements;
 
 public class Main {
     public static void main(String[] args) {
 
         //while loop
-//        int a = 1;
-//        while (a <= 10) {
-//            System.out.println(a);
-//            if(!(a<10))
-//            {
-//                break;
-//            }
-//            a=a+1;
-//        }
+
+        int a = 1;
+        while (a <= 10) {
+            System.out.println(a);
+            if(!(a<10))
+            {
+                break;
+            }
+            a=a+1;
+        }
+        }
 
         // do while loop
 //            int a = 1;
@@ -76,5 +78,5 @@ public class Main {
 //        }
     }
 
-}
+
 
