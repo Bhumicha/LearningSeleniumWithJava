@@ -9,6 +9,7 @@ public class PrimeNumberCheck {
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+
         if (CheckPrime(n))
         {
             System.out.println(n + "is prime number");

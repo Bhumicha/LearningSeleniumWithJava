@@ -1,4 +1,4 @@
-package All.example;
+package ConditionalStatements;
 
 public class LoopingOrIterativeStatement {
 public static void main(String[]args)
