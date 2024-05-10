@@ -60,6 +60,5 @@ public class NagivateCommands {
         //switch to child window
         driver.switchTo().window(childID);
         System.out.println(driver.getTitle());
-
     }
 }
