@@ -14,9 +14,10 @@ public class UploadingFiles {
     @BeforeEach
     public void setUp() {
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://demo.guru99.com/test/upload/");
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
     }
 
     @AfterEach
