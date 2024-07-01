@@ -17,7 +17,7 @@ public class SelectDate {
         driver.manage().window().setSize(new Dimension(786, 816));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
-     
+
     }
 
     @AfterEach

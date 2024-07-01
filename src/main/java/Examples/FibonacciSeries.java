@@ -7,8 +7,7 @@ public class FibonacciSeries {
     }
     static void Fibonacci(int N)
     {
-        int n1 = 0,
-        n2 = 1;
+        int n1 = 0, n2 = 1;
         for (int i = 0; i<=N; i++)
         {
             System.out.println(n1 + " ");

@@ -18,7 +18,7 @@ public class PrimeNumberCheck {
         }
     }
 
-    static boolean CheckPrime(int n)
+    public static boolean CheckPrime(int n)
     {
         if (n <= 1)
         {
