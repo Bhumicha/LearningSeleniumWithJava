@@ -1,2 +1,15 @@
-package PACKAGE_NAME;public class BlockingAdsEnablingExtension {
+import org.checkerframework.checker.units.qual.C;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import java.io.File;
+public class BlockingAdsEnablingExtension {
+    public static void main(String[] args) {
+        ChromeOptions options = new ChromeOptions();
+        File file = new File("E:\\Files\\uBlock-Origin-Chrome-Web-Store.crx");
+        options.addExtensions(file);
+        WebDriver driver=new ChromeDriver(options);
+        driver.get("https://text-compare.com/");
+    }
 }
